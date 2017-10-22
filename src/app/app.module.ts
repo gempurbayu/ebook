@@ -11,6 +11,17 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { AngularFireModule } from 'angularfire2';
+
+
+export const firebaseConfig = {
+  apiKey            : 'AIzaSyABko4memE1Fdk18jKL0hIfR6jJTbi0DpA',
+  authDomain        : 'https://console.firebase.google.com/project/jaguarteam',
+  databaseURL       : 'https://jaguarteam-5ccc4.firebaseio.com/',
+  storageBucket     : 'gs://jaguarteam-5ccc4.appspot.com',
+  messagingSenderId : 'YOUR-MESSAGING-SENDER-ID-HERE'
+};
+
 @NgModule({
   declarations: [
     MyApp,
