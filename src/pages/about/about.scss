@@ -1,7 +1,19 @@
 page-about {
-background: color($colors, primary);
+	background-image: url('..\assets\imgs\bg.jpg');
+	background-size: contain;
 }
 
 .judul {
-	color: blue;
+	color: #2980b9;
+	font-size: 27px;
+	font-style: roboto;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.readm {
+	width: 250px;
+	height: 45px;
+	border-radius:250px;
+    background: linear-gradient(#39a8e5, #394c81); /* Standard syntax */
 }
